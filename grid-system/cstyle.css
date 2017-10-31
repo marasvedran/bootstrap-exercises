@@ -7,7 +7,7 @@ body{
     padding: 10px;
 }
 
-.col-md-3{
+.col-sm-8, .col-sm-4{
     background-color: lightpink;
 }
 
