@@ -1,15 +1,12 @@
-div[class^="col-xs-12"] {
-    height: 200px;
-}
-
 div[class^="col-"] {
     border: 1px solid black;
+    height: 200px;
 }
 
 body{
     padding: 10px;
 }
 
-.col-xs-4{
+.col-sm-4{
     background-color: lightpink;
 }
