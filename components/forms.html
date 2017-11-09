@@ -5,11 +5,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <title>Forms</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
 
 <div class="container">
-<form>
+<form class="form-inline">
     <div class="form-group">
         <label for="firstName">Firstname</label>
         <input type="text" class="form-control" id="firstName">
@@ -19,11 +24,21 @@
         <input type="text" class="form-control" id="lastName">
     </div>
     <div class="form-group">
+        <label for="Age">Age</label>
+        <input type="text" class="form-control" id="Age">
+    </div>
+    <div class="form-group">
+        <label for="lastName">Gender</label>
+        <input type="text" class="form-control" id="Gender">
+    </div>
+
+</form>
+    <div class="form-group">
         <label for="comments">Comments</label>
         <textarea class="form-control" id="comments"></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit form</button>
-</form>
+    <button type="submit" class="btn btn-success">Submit form</button>
+
 </div>
 
 </body>
