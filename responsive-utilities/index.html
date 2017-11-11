@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <title>Helper classes and typography</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>1.</h1>
+
+<div class="container-fluid row">
+    <div class="col-sm-6 text-center"><h3 class="visible-xs ">Heading</h3><h1 class="visible-sm-md-lg hidden-xs">Heading</h1><p>Paragrapgh</p></div>
+    <div class="col-sm-6 text-center"><h3 class="visible-xs ">Heading</h3><h1 class="visible-sm-md-lg hidden-xs">Heading</h1><p>Paragrapgh</p></div>
+</div>
+
+<h1>2.</h1>
+
+<div class="container row">
+    <div class="col-xs-12 visible-xs bg-success">xs-one-column</div>
+    <div class="col-sm-6 visible-sm bg-warning">sm-two-column</div>
+    <div class="col-sm-6 visible-sm bg-warning">sm-two-column</div>
+    <div class="col-md-4 visible-md bg-danger">md-three-column</div>
+    <div class="col-md-4 visible-md bg-danger">md-three-column</div>
+    <div class="col-md-4 visible-md bg-danger">md-three-column</div>
+    <div class="col-lg-3 visible-lg bg-primary">lg-four-column</div>
+    <div class="col-lg-3 visible-lg bg-primary">lg-four-column</div>
+    <div class="col-lg-3 visible-lg bg-primary">lg-four-column</div>
+    <div class="col-lg-3 visible-lg bg-primary">lg-four-column</div>
+</div>
+
+<h1>3.</h1>
+
+<div class="container row">
+    <div class="col-xs-12 visible-xs bg-success">
+        <h2 class="text-center">XS VIEW</h2>
+    </div>
+    <div class="col-sm-12 visible-sm bg-success">
+        <h2 class="text-center">SM VIEW</h2>
+    </div>
+    <div class="col-md-12 visible-md bg-success">
+        <h2 class="text-center">MD VIEW</h2>
+    </div>
+    <div class="col-lg-12 visible-lg bg-success">
+        <h2 class="text-center">LG VIEW</h2>
+    </div>
+</div>
+
+<h1>4.</h1>
+
+<div class="container">
+    <div class="row hidden-print">
+        <div class="col-xs-12"><p>Visible on desktop, mobile and tablet</p></div>
+    </div>
+    <div class="row visible-print">
+        <div class="col-xs-12"><p>Visible in print ONLY</p></div></div>
+</div>
+
+</body>
+</html>
