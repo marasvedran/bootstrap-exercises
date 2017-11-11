@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <title>Helper classes and typography</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+
+        h1{
+            color: red;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<h1>Contextual text colors</h1>
+
+<p class="text-danger">Paragraph Danger</p>
+<p class="text-warning">Paragraph Warning</p>
+<h2 class="text-info">Heading info</h2>
+<h2 class="text-muted">Heading muted</h2>
+<a href="#" class="text-primary">
+    <h2>This is a link with .text-primary</h2>
+</a>
+<a href="#" class="text-success">
+    <h2>This is a link with .text-success</h2>
+</a>
+
+<h1>Typography</h1>
+
+<p class="lead">Led Paragraph</p><p>No class Paragraph</p>
+<p class="text-center">Paragraph Center</p>
+<h2 class="text-center">Heading Center</h2>
+<a href="#" class="text-center">
+    <h2>This is a link center aligned</h2>
+</a>
+<p class="text-uppercase">paragrapgh uppercase</p>
+<h2 class="text-uppercase">heading uppercase</h2>
+<a href="#" class="text-uppercase">
+    <h2>This is a link uppercase</h2>
+</a>
+<p class="text-lowercase">"ThiS Is A UPpERCasE AnD loweRcaSe seNtence"</p>
+
+<h1>Contextual Background</h1>
+
+<p class="bg-danger">Parag.danger</p>
+<h2 class="bg-info">Heading.info</h2>
+<span class="bg-success">span.success</span>
+<div class="bg-warning">div.warning</div>
+<a href="#" class="bg-warning">This is a link.warning</a>
+
+<h1>Right/Left</h1>
+
+<div class="container bg-danger pull-right">
+    <a href="#" class="bg-info pull-right">Some text</a>
+</div>
+
+<h1>Center</h1>
+
+    <div class="center-block bg-success" style="width: 200px">Div 200px width</div>
+
+<h1>Clearfix</h1>
+
+<div class="container row">
+    <div class="col-xs-6">...</div>
+    <div class="clearfix"></div>
+    <div class="col-xs-6">...</div>
+</div>
+
+<h1>Visibility</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary invisible" style="padding: 11%"></div>
+        <div class="col-xs-3 bg-primary" style="padding: 11%"></div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-3 bg-info">...</div>
+        <div class="col-xs-6 bg-success hide">...</div>
+        <div class="col-xs-7 bg-primary hide">...</div>
+        <div class="col-xs-5 bg-danger">...</div>
+        <div class="col-xs-4 bg-warning">...</div>
+        <div class="col-xs-2 bg-danger hide">...</div>
+    </div>
+</div>
+
+</body>
+</html>
