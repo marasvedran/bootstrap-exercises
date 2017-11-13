@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>1.1</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <div class="panel panel-default">
+                  <div class="panel-heading">
+                <div class ="panel-title">
+                    <a href="#" data-toggle="collapse" data-target="#collapseId">Panel One</a></div>
+                </div>
+                <div class="collapse" id="collapseId">
+                    <div class="panel-body">Content will be shown or hidden</div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                  <div class="panel-heading">
+                <div class ="panel-title">
+                    <a href="#" data-toggle="collapse" data-target="#collapsed">Panel Two</a></div>
+            </div>
+                <div class="collapse" id="collapsed">
+                    <div class="panel-body">Content will be shown or hidden</div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                  <div class="panel-heading">
+                <div class ="panel-title">
+                    <a href="#" data-toggle="collapse" data-target="#collapseI">Panel Three</a></div>
+            </div>
+                <div class="collapse" id="collapseI">
+                    <div class="panel-body">Content will be shown or hidden</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<h1>1.2</h1>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <button class="btn btn-default" type="button"
+                    data-toggle="collapse" data-target="#1">
+                Dogs
+            </button>
+
+            <div class="collapse" id="1">
+                <div class="well">
+                    A well is simply a box with certain styling,
+                    such as background color, box shadow and border.
+                    We can use the well to quickly place some content
+                    inside a box to make it look like different from rest of the contents.
+                    <div class="well">     Look, I'm in a well! </div>
+                </div>
+            </div>
+
+            <button class="btn btn-default" type="button"
+                    data-toggle="collapse" data-target="#2">
+                Birds
+            </button>
+
+            <div class="collapse" id="2">
+                <div class="well">
+                    A well is simply a box with certain styling,
+                    such as background color, box shadow and border.
+                    We can use the well to quickly place some content
+                    inside a box to make it look like different from rest of the contents.
+                    <div class="well">     Look, I'm in a well! </div>
+                </div>
+            </div>
+
+            <button class="btn btn-default" type="button"
+                    data-toggle="collapse" data-target="#3">
+            Cats
+            </button>
+
+            <div class="collapse" id="3">
+                <div class="well">
+                    A well is simply a box with certain styling,
+                    such as background color, box shadow and border.
+                    We can use the well to quickly place some content
+                    inside a box to make it look like different from rest of the contents.
+                    <div class="well">     Look, I'm in a well! </div>
+                </div>
+            </div>
+
+            <button class="btn btn-default" type="button"
+                    data-toggle="collapse" data-target="#4">
+            Mammals
+            </button>
+
+            <div class="collapse" id="4">
+                <div class="well">
+                    A well is simply a box with certain styling,
+                    such as background color, box shadow and border.
+                    We can use the well to quickly place some content
+                    inside a box to make it look like different from rest of the contents.
+                    <div class="well">     Look, I'm in a well! </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
