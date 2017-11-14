@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+        .tab-content{
+            padding: 20px;
+        }
+        img{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>1.1</h1>
+
+<h2>Begynnelse</h2><h6>Dan Brown</h6>
+
+<ul class="nav nav-tabs">
+    <li class="active"><a href="#dogs" data-toggle="tab">Dogs</a></li>
+    <li><a href="#cats" data-toggle="tab">Cats</a></li>
+    <li><a href="#horses" data-toggle="tab">Horses</a></li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane active" id="dogs"><img src="autumn-2887556_1920.jpg" width="400"><img src="avenue-2923841_1920.jpg" width="400"><img src="railway-2818748.jpg" width="400"></div>
+    <div class="tab-pane" id="cats"><img src="avenue-2923841_1920.jpg" width="400"><img src="autumn-2887556_1920.jpg" width="400"><img src="railway-2818748.jpg" width="400"></div>
+    <div class="tab-pane" id="horses"><img src="railway-2818748.jpg" width="400"><img src="autumn-2887556_1920.jpg" width="400"><img src="avenue-2923841_1920.jpg" width="400"></div>
+</div>
+
+</body>
+</html>
