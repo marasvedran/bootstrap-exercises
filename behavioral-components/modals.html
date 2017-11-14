@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modals</title>
+    <style>
+        body{
+            margin: 10px;
+        }
+        .col-xs-12{
+            width: 100%;
+            height: 400px;
+        }
+        button{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<h1>1</h1>
+
+<textarea class="col-xs-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed viverra ex. Duis libero arcu, condimentum sagittis iaculis eget, elementum et libero. Vivamus congue at leo eu venenatis. Phasellus et volutpat neque. Donec cursus nulla quis enim tristique iaculis. Praesent dapibus mi a suscipit faucibus. Aliquam erat volutpat. Cras pulvinar consequat elit non pretium. Nam augue eros, dignissim quis interdum sit amet, tempor at orci. Proin dictum id lacus sed tristique. Quisque non magna vel dolor euismod ultrices.
+    Sed nec eros mollis, ullamcorper metus vitae, rhoncus lectus. Maecenas non pulvinar enim.
+    Aenean eget diam a metus tempus tincidunt eget sit amet metus. Vivamus eros felis, convallis quis nibh et,
+    ornare pretium mi. Maecenas eros libero, venenatis nec mollis non, egestas in nulla.
+
+    Nam nunc sem, luctus sed lorem ut, vestibulum porttitor felis. Duis dapibus turpis ut metus commodo sodales. Duis dapibus volutpat commodo. Sed sem felis, mattis quis lectus et, vestibulum sagittis lectus.
+Nullam id nulla et lacus hendrerit sollicitudin mollis id tellus. Curabitur sodales ante eu viverra vestibulum. Maecenas imperdiet nulla ac ante commodo dictum. Pellentesque vel nisl sit amet dolor venenatis placerat eget nec elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed vestibulum tempor eros, quis lacinia lacus fermentum et. Cras egestas fermentum tortor, nec gravida metus faucibus sit amet. Etiam ullamcorper suscipit placerat. Mauris aliquet orci ut viverra consectetur. Nulla malesuada euismod urna, vel euismod velit viverra sed. Duis id fringilla odio, a dictum ipsum.
+In hac habitasse platea dictumst. Praesent semper laoreet augue, tristique hendrerit urna congue at.
+
+    Sed ornare sodales varius. Sed porta ultrices eros, at molestie ex malesuada a. Donec bibendum lorem in neque iaculis, in dapibus dui pulvinar. Nunc auctor tortor a vestibulum rutrum. Aliquam magna dolor, tincidunt venenatis erat ac, vehicula ornare lectus. Integer luctus pellentesque interdum. Quisque purus augue, eleifend et ultricies ac, efficitur vel enim. Aenean auctor neque eu nisi vulputate, nec interdum sem consectetur. In eget lobortis velit. Nulla dui augue, pellentesque vel lacinia in, feugiat id ipsum. Phasellus lobortis dictum libero, non mattis justo porttitor eget. Aliquam a mauris metus. Aliquam aliquam tempus eros ut efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+        Aliquam erat volutpat. Duis scelerisque augue at lacus ullamcorper accumsan. Sed eget luctus elit.
+    Quisque eget ipsum quis lacus elementum iaculis. Vestibulum ac lacinia urna, eget placerat lectus.
+
+    Integer gravida lorem urna, ac laoreet lacus facilisis non. Maecenas et blandit diam, sit amet elementum lectus.
+    Phasellus sit amet magna lacus. Curabitur convallis tellus erat, lobortis hendrerit purus congue non.
+        Praesent ullamcorper ante metus, placerat venenatis sem interdum sit amet. Vivamus elementum,
+        neque viverra efficitur auctor, est nunc tempus mauris, vitae dapibus nunc lorem vitae felis.
+        Cras quis tellus ipsum.</textarea>
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    Save changes</button>
+
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>Modal body</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Absolutely NOT!</button>
+                <button type="button" class="btn btn-success">Of course!</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1>2</h1>
+
+<a data-toggle="modal" href="#waltermodel">
+    <img src="avenue-2923841_1920.jpg" width="400px" class="img-responsive img-thumbnail">
+</a>
+
+<a data-toggle="modal" href="#models">
+    <img src="autumn-2887556_1920.jpg" width="400px" class="img-responsive img-thumbnail">
+</a>
+
+<a data-toggle="modal" href="#supermodels">
+    <img src="railway-2818748.jpg" width="400px" class="img-responsive img-thumbnail">
+</a>
+
+<div class="modal fade" id="waltermodel">
+    <div class="modal-dialog">
+        <img src="avenue-2923841_1920.jpg" class="img-responsive">
+    </div>
+</div>
+
+<div class="modal fade" id="models">
+    <div class="modal-dialog">
+        <img src="autumn-2887556_1920.jpg" class="img-responsive">
+    </div>
+</div>
+<div class="modal fade" id="supermodels">
+    <div class="modal-dialog">
+        <img src="railway-2818748.jpg" class="img-responsive">
+    </div>
+</div>
+</body>
+</html>
